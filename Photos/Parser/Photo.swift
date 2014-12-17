@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 import MapKit
 
 extension UIImage {
@@ -41,7 +42,6 @@ class Photo : NSObject, MKAnnotation {
         }
     }
     
-    
     var image : UIImage?
     var thumb : UIImage?
     
@@ -53,7 +53,6 @@ class Photo : NSObject, MKAnnotation {
             self.thumb = self.image?.thumbnail()
         }
     }
-
     var autore : String
     var latitudine : Double
     var longitudine : Double

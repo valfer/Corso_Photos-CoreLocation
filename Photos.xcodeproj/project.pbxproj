@@ -7,20 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D91AFE6519BF198B00DB1B4D /* PhotoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91AFE6419BF198B00DB1B4D /* PhotoMapViewController.swift */; };
-		D91AFE6919BF3F6D00DB1B4D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91AFE6819BF3F6D00DB1B4D /* MapKit.framework */; };
-		D91AFE6B19BF42A600DB1B4D /* roma.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D91AFE6A19BF42A600DB1B4D /* roma.gpx */; };
 		D943C53219B8AB2B00EB0AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D943C53119B8AB2B00EB0AF5 /* AppDelegate.swift */; };
 		D943C53419B8AB2B00EB0AF5 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D943C53319B8AB2B00EB0AF5 /* PhotoViewController.swift */; };
 		D943C53719B8AB2B00EB0AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D943C53519B8AB2B00EB0AF5 /* Main.storyboard */; };
 		D943C53919B8AB2B00EB0AF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D943C53819B8AB2B00EB0AF5 /* Images.xcassets */; };
 		D943C54519B8AB2B00EB0AF5 /* PhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D943C54419B8AB2B00EB0AF5 /* PhotosTests.swift */; };
-		D977DFAF1A4042C000259646 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977DFAC1A4042C000259646 /* Parser.swift */; };
-		D977DFB01A4042C000259646 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977DFAD1A4042C000259646 /* Photo.swift */; };
-		D977DFB11A4042C000259646 /* photos.json in Resources */ = {isa = PBXBuildFile; fileRef = D977DFAE1A4042C000259646 /* photos.json */; };
-		D9932DC419B9E869001CB970 /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9932DC319B9E869001CB970 /* PhotoListViewController.swift */; };
-		D9DEE1D819BDBB4100647D80 /* PhotoSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DEE1D719BDBB4100647D80 /* PhotoSplitViewController.swift */; };
-		D9EE6A2719B9ACB0007772DC /* photos.txt in Resources */ = {isa = PBXBuildFile; fileRef = D9EE6A2619B9ACB0007772DC /* photos.txt */; };
+		D977DF851A403C0C00259646 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977DF821A403C0C00259646 /* Parser.swift */; };
+		D977DF861A403C0C00259646 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977DF831A403C0C00259646 /* Photo.swift */; };
+		D977DF871A403C0C00259646 /* photos.json in Resources */ = {isa = PBXBuildFile; fileRef = D977DF841A403C0C00259646 /* photos.json */; };
+		D9B0915B1A41D20900540397 /* PhotoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B0915A1A41D20900540397 /* PhotoMapViewController.swift */; };
+		D9B0915D1A41DA5800540397 /* roma.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D9B0915C1A41DA5800540397 /* roma.gpx */; };
+		D9EE6A2319B9AC29007772DC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE6A2219B9AC29007772DC /* RootViewController.swift */; };
 		D9EE6A2F19B9B609007772DC /* PhotoInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EE6A2E19B9B609007772DC /* PhotoInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,9 +32,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D91AFE6419BF198B00DB1B4D /* PhotoMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMapViewController.swift; sourceTree = "<group>"; };
-		D91AFE6819BF3F6D00DB1B4D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		D91AFE6A19BF42A600DB1B4D /* roma.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = roma.gpx; sourceTree = "<group>"; };
 		D943C52C19B8AB2B00EB0AF5 /* Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D943C53019B8AB2B00EB0AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D943C53119B8AB2B00EB0AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,12 +41,12 @@
 		D943C53E19B8AB2B00EB0AF5 /* PhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D943C54319B8AB2B00EB0AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D943C54419B8AB2B00EB0AF5 /* PhotosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTests.swift; sourceTree = "<group>"; };
-		D977DFAC1A4042C000259646 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		D977DFAD1A4042C000259646 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
-		D977DFAE1A4042C000259646 /* photos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = photos.json; sourceTree = "<group>"; };
-		D9932DC319B9E869001CB970 /* PhotoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
-		D9DEE1D719BDBB4100647D80 /* PhotoSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSplitViewController.swift; sourceTree = "<group>"; };
-		D9EE6A2619B9ACB0007772DC /* photos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = photos.txt; sourceTree = "<group>"; };
+		D977DF821A403C0C00259646 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		D977DF831A403C0C00259646 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		D977DF841A403C0C00259646 /* photos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = photos.json; sourceTree = "<group>"; };
+		D9B0915A1A41D20900540397 /* PhotoMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMapViewController.swift; sourceTree = "<group>"; };
+		D9B0915C1A41DA5800540397 /* roma.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = roma.gpx; sourceTree = "<group>"; };
+		D9EE6A2219B9AC29007772DC /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		D9EE6A2E19B9B609007772DC /* PhotoInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91AFE6919BF3F6D00DB1B4D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +71,6 @@
 		D943C52319B8AB2B00EB0AF5 = {
 			isa = PBXGroup;
 			children = (
-				D91AFE6819BF3F6D00DB1B4D /* MapKit.framework */,
 				D943C52E19B8AB2B00EB0AF5 /* Photos */,
 				D943C54119B8AB2B00EB0AF5 /* PhotosTests */,
 				D943C52D19B8AB2B00EB0AF5 /* Products */,
@@ -97,12 +89,11 @@
 		D943C52E19B8AB2B00EB0AF5 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				D977DFAB1A4042C000259646 /* Parser */,
+				D977DF811A403C0C00259646 /* Parser */,
 				D943C53119B8AB2B00EB0AF5 /* AppDelegate.swift */,
-				D9DEE1D719BDBB4100647D80 /* PhotoSplitViewController.swift */,
-				D9932DC319B9E869001CB970 /* PhotoListViewController.swift */,
+				D9EE6A2219B9AC29007772DC /* RootViewController.swift */,
 				D943C53319B8AB2B00EB0AF5 /* PhotoViewController.swift */,
-				D91AFE6419BF198B00DB1B4D /* PhotoMapViewController.swift */,
+				D9B0915A1A41D20900540397 /* PhotoMapViewController.swift */,
 				D9EE6A2E19B9B609007772DC /* PhotoInfoViewController.swift */,
 				D943C53519B8AB2B00EB0AF5 /* Main.storyboard */,
 				D943C53819B8AB2B00EB0AF5 /* Images.xcassets */,
@@ -114,8 +105,7 @@
 		D943C52F19B8AB2B00EB0AF5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D91AFE6A19BF42A600DB1B4D /* roma.gpx */,
-				D9EE6A2619B9ACB0007772DC /* photos.txt */,
+				D9B0915C1A41DA5800540397 /* roma.gpx */,
 				D943C53019B8AB2B00EB0AF5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -138,12 +128,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D977DFAB1A4042C000259646 /* Parser */ = {
+		D977DF811A403C0C00259646 /* Parser */ = {
 			isa = PBXGroup;
 			children = (
-				D977DFAC1A4042C000259646 /* Parser.swift */,
-				D977DFAD1A4042C000259646 /* Photo.swift */,
-				D977DFAE1A4042C000259646 /* photos.json */,
+				D977DF821A403C0C00259646 /* Parser.swift */,
+				D977DF831A403C0C00259646 /* Photo.swift */,
+				D977DF841A403C0C00259646 /* photos.json */,
 			);
 			path = Parser;
 			sourceTree = "<group>";
@@ -197,14 +187,6 @@
 				TargetAttributes = {
 					D943C52B19B8AB2B00EB0AF5 = {
 						CreatedOnToolsVersion = 6.0;
-						SystemCapabilities = {
-							com.apple.BackgroundModes = {
-								enabled = 0;
-							};
-							com.apple.Maps.iOS = {
-								enabled = 1;
-							};
-						};
 					};
 					D943C53D19B8AB2B00EB0AF5 = {
 						CreatedOnToolsVersion = 6.0;
@@ -236,11 +218,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91AFE6B19BF42A600DB1B4D /* roma.gpx in Resources */,
-				D977DFB11A4042C000259646 /* photos.json in Resources */,
+				D9B0915D1A41DA5800540397 /* roma.gpx in Resources */,
+				D977DF871A403C0C00259646 /* photos.json in Resources */,
 				D943C53719B8AB2B00EB0AF5 /* Main.storyboard in Resources */,
 				D943C53919B8AB2B00EB0AF5 /* Images.xcassets in Resources */,
-				D9EE6A2719B9ACB0007772DC /* photos.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,14 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91AFE6519BF198B00DB1B4D /* PhotoMapViewController.swift in Sources */,
-				D9DEE1D819BDBB4100647D80 /* PhotoSplitViewController.swift in Sources */,
+				D9B0915B1A41D20900540397 /* PhotoMapViewController.swift in Sources */,
+				D977DF861A403C0C00259646 /* Photo.swift in Sources */,
 				D943C53419B8AB2B00EB0AF5 /* PhotoViewController.swift in Sources */,
-				D977DFB01A4042C000259646 /* Photo.swift in Sources */,
 				D943C53219B8AB2B00EB0AF5 /* AppDelegate.swift in Sources */,
-				D977DFAF1A4042C000259646 /* Parser.swift in Sources */,
+				D977DF851A403C0C00259646 /* Parser.swift in Sources */,
 				D9EE6A2F19B9B609007772DC /* PhotoInfoViewController.swift in Sources */,
-				D9932DC419B9E869001CB970 /* PhotoListViewController.swift in Sources */,
+				D9EE6A2319B9AC29007772DC /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

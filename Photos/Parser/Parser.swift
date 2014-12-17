@@ -98,11 +98,7 @@ class Parser {
             if let _error = error {
                 _delegate.parserKO(_error)
             } else {
-                var dispatchTime = dispatch_time(DISPATCH_TIME_NOW, Int64(3))
-                dispatch_after(dispatchTime, dispatch_get_main_queue()) {
-                    
-                    _delegate.parserOK(result)
-                }
+                _delegate.parserOK(result)
             }
         }
     }
