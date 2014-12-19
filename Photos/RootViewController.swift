@@ -36,16 +36,7 @@ class RootViewController : UIViewController, ParserDelegate, UINavigationControl
         if segue.identifier != nil {
         
             var index : Int!
-            let identifier : String = segue.identifier!
-            switch identifier {
-                
-            case "show":
-                index = (sender as UIButton).tag
-            case "show1":
-                index = 0
-            default:
-                index = 2
-            }
+            index = (sender as UIButton).tag
             
             let photoTitle = photos[index].titolo
             let photoImage = UIImage(named: photoTitle ?? "rovi")   // es. di cohalesce operator
